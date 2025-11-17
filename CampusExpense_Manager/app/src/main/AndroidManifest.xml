@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CampusExpenseManager">
         <activity
+            android:name=".Expense_Reports"
+            android:exported="false" />
+        <activity
+            android:name=".Overview_Of_Expenses"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
